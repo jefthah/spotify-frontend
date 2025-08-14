@@ -1,7 +1,11 @@
 // context/PlayerContextProvider.jsx
 import { useEffect, useRef, useState, useCallback } from "react";
-import  PlayerContext  from "./PlayerContext";
+
 import ApiService from "../services/api.js";
+import { createContext } from "react";
+
+export const PlayerContext = createContext();
+
 
 const PlayerContextProvider = (props) => {
   const audioRef = useRef();
