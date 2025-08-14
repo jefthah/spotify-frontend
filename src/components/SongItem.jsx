@@ -1,6 +1,6 @@
 import React from 'react'
 import { useContext } from 'react'
-import { PlayerContext } from '../context/PlayerContext'
+import { PlayerContext } from '../context/PlayerContextProvider.jsx'
 
 export default function SongItem({name, image, desc, index}) {
   const {playWithId} = useContext(PlayerContext)

@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import Navbar from "./Navbar";
-import { PlayerContext } from "../context/PlayerContext";
+import { PlayerContext } from "../context/PlayerContextProvider.jsx";
 import AlbumItem from "./AlbumItem";
 import SongItem from "./SongItem";
 
